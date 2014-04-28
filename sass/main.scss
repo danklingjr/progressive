@@ -128,6 +128,8 @@ nav[role=navigation]{
 .property{
 	background-color: #fff;
 	text-align: center;
+	margin-bottom: 10px;
+	@include prefix(transition,0.3s);
 	a{
 		display: block;
 		width: 100%;
@@ -137,6 +139,16 @@ nav[role=navigation]{
 	img{
 		max-width: 100%;
 	}
+}
+.properties:hover,
+.properties:focus{
+	.property{
+		opacity: 0.4;
+	}
+}
+.properties .property:hover,
+.properties .property:focus{
+	opacity: 1.0;
 }
 .mission{
 	background-image: url(../img/blue-bg.jpg);

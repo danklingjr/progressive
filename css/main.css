@@ -456,6 +456,11 @@ nav[role=navigation] {
 .property {
   background-color: #fff;
   text-align: center;
+  margin-bottom: 10px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -466,6 +471,14 @@ nav[role=navigation] {
     padding: 20px 0; }
   .property img {
     max-width: 100%; }
+
+.properties:hover .property,
+.properties:focus .property {
+  opacity: 0.4; }
+
+.properties .property:hover,
+.properties .property:focus {
+  opacity: 1.0; }
 
 .mission {
   background-image: url(../img/blue-bg.jpg);
