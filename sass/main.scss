@@ -6,11 +6,174 @@
 /*!////////////////////////////////////////////////
 // MODULES
 /////////////////////////////////////////////////*/
-.test{
-	min-height: 100px;
-	background-color: gray;
+header[role=banner]{
+	position: relative;
+	z-index: 2;
+	border-top: 6px solid #bf1e2e;
+	padding: 20px 0;
+	@include prefix(box-shadow,0 0 5px rgba(0,0,0,0.3));
+}
+.branding{
+	display: inline-block
+}
+nav[role=navigation]{
+	position: relative;
+	top: 50px;
+	float: right;
+	span{
+		position: relative;
+		margin-left: 25px;
+	}
+	span:after{
+		content: "";
+		display: inline-block; 
+		background-color: #f0f0f0;
+		position: absolute;
+		width: 5px;
+		height: 40px;
+		top: -15px;
+		right: -17.5px;
+		@include prefix(transform, rotate(15deg));
+	}
+	span:last-child:after{
+		display: none; 
+	}
+	a{
+		font-family: $bodyFont;
+		font-size: em(24px,$font-size);
+		font-weight: 700;
+		color: $secondaryColor;
+		text-decoration: none;
+		@include prefix(transition,0.3s ease-in-out);
+	}
+	a:hover,
+	a:focus{
+		color: $primaryColor;
+	}
+}
+.hero{
+	position: relative;
+	height: 560px;
+	background-image: url(../img/hero-meeting.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	.wrap{
+		height: 100%;
+	}
+	h2{
+		position: absolute;
+		bottom: -40px;
+		font-family: $headerFont;
+		font-size: 1.0em;
+		text-transform: uppercase;
+		color: $primaryColor;
+		span{
+			display: inline-block;
+			background-color: #fff;
+			line-height: 1.0em;
+			margin-bottom: 10px;
+			padding: 15px 20px;
+			@include prefix(box-shadow,0 0 5px rgba(0,0,0,0.3));
+		}
+		span:first-child{
+			font-size: em(60px,$font-size);
+		}
+		span:last-child{
+			font-size: em(36px,$font-size);
+		}
+	}
+}
+.family{
+	background-color: #e7e7e7;
+	padding: 100px 0 40px;
+	h3{
+		margin-bottom: 20px;
+	}
+}
+.property{
+	background-color: #fff;
+	text-align: center;
+	a{
+		display: block;
+		width: 100%;
+		padding: 20px 0;
+	}
+	@include prefix(box-shadow,0 0 5px rgba(0,0,0,0.3));
+	img{
+		max-width: 100%;
+	}
+}
+.mission{
+	background-image: url(../img/blue-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 60px 0;
+	@include prefix(box-shadow,inset 0 0 5px rgba(0,0,0,0.3));
+	h3{
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	p{
+		width: 100%;
+		max-width: 960px;
+		font-family: $bodyFont;
+		font-size: em(20px,$font-size);
+		line-height: 2em;
+		color: #fff;
+	}
+}
+.offerings{
+	padding: 40px 0;
+	li{
+		list-style: none;
+		font-family: $bodyFont;
+		font-size: em(20px,$font-size);
+		font-weight: 700;
+		color: $secondaryColor;
+		border-bottom: 1px solid #e0ddd7;
+		padding: 10px 0;
+	}
+	li:last-child{
+		border-bottom: none;
+	}
+}
+.copyright{
+	font-family: $bodyFont;
+	font-size: em(18px,$font-size);
+	color: $headerColor;
+	padding: 40px 0;
+}
+.cta{
+	background-color: #fff;
+	padding: 40px 20px;
+}
+.cta a{
+	font-family: $headerFont;
+	font-size: em(36px,$font-size);
+	font-weight: 700;
+	color: $secondaryColor;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.cta a:hover,
+.cta a:focus{
+	color: $primaryColor;
 }
 
+
+footer[role=contentinfo]{
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0d…g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNsZXNzaGF0LWdlbmVyYXRlZCkiIC8+PC9zdmc+);
+	background-image: -webkit-linear-gradient(left, #f5f5f5 0%, #f5f5f5 66.66667%, #fff 66.66667%, #fff 100%);
+	background-image: -moz-linear-gradient(left, #f5f5f5 0%, #f5f5f5 66.66667%, #fff 66.66667%, #fff 100%);
+	background-image: -o-linear-gradient(left, #f5f5f5 0%, #f5f5f5 66.66667%, #fff 66.66667%, #fff 100%);
+	background-image: linear-gradient(to right, #f5f5f5 0%, #f5f5f5 66.66667%, #fff 66.66667%, #fff 100%);
+	border-top: 5px solid #dddddd;
+	.grid-4,
+	.grid-2{
+		margin-bottom: 0;
+	}
+}
 
 /*!////////////////////////////////////////////////
 // STATES
