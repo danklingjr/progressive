@@ -19,9 +19,14 @@ $alternateFont: 'Roboto', sans-serif;
 .content{
 	h3{
 		font-family: $headerFont;
-		font-size: em(38px,$font-size);
+		font-size: em(24px,$font-size);
 		font-weight: 400;
 		color: $headerColor;
 		margin-bottom: 20px;
+	}
+	@media screen and (min-width: 620px){
+		h3{
+			font-size: em(38px,$font-size);
+		}
 	}
 }
