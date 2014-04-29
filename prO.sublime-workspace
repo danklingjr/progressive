@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"text-align"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -71,18 +75,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3994,
+				"buffer_size": 5369,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "@import \"resets.scss\";\n@import \"mixins.scss\";\n@import \"layout.scss\";\n@import \"theme.scss\";\n\n/*!////////////////////////////////////////////////\n// MODULES\n/////////////////////////////////////////////////*/\n.test{\n	min-height: 100px;\n	background-color: gray;\n}\n\n\n/*!////////////////////////////////////////////////\n// STATES\n/////////////////////////////////////////////////*/\n\n\n\n@import \"shame.scss\";\n@import \"helpers.scss\";",
 			"file": "sass/main.scss",
-			"file_size": 425,
-			"file_write_time": 1396531552000000,
 			"settings":
 			{
-				"buffer_size": 425,
+				"buffer_size": 5073,
 				"line_ending": "Unix"
 			}
 		},
@@ -90,7 +91,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 463,
+				"buffer_size": 729,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,6 +108,14 @@
 			"settings":
 			{
 				"buffer_size": 2321,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 159,
 				"line_ending": "Unix"
 			}
 		}
@@ -257,6 +266,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ea3a3a",
+			"fe4444",
 			"gallery__category",
 			"25",
 			"page",
@@ -342,15 +353,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3994,
+						"buffer_size": 5369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1531,
-								1531
+								2620,
+								2620
 							]
 						],
 						"settings":
@@ -363,7 +374,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 451.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -371,7 +382,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -379,15 +390,15 @@
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 425,
+						"buffer_size": 5073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								4270,
+								4270
 							]
 						],
 						"settings":
@@ -395,10 +406,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2853.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -408,15 +420,15 @@
 					"file": "sass/theme.scss",
 					"settings":
 					{
-						"buffer_size": 463,
+						"buffer_size": 729,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								463,
-								463
+								556,
+								556
 							]
 						],
 						"settings":
@@ -424,7 +436,8 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -458,7 +471,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 558.0,
+						"translation.y": 253.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -487,6 +500,35 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -567,7 +609,7 @@
 		[
 			[
 				"",
-				"/Users/Dan/Desktop/Projects/garman/gbO.sublime-project"
+				"/Users/Dan/Desktop/Projects/deck-craft/deckCraft.sublime-project"
 			],
 			[
 				"bed",
